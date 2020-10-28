@@ -1,0 +1,200 @@
+/**************************** PAD RESPONSIVE ****************************/
+
+#showcase {
+    height: unset;
+    display: unset;
+    position: relative;
+}
+
+/******** NAVIGATION BAR ********/
+
+#landing .navbar .div-row {
+    padding: 1rem 3rem;
+}
+
+/******** SHOWCASE ********/
+
+#showcase .container {
+    position: unset;
+    overflow: hidden;
+}
+
+#showcase .container>.top-cloud {
+    top: 15%;
+    right: 0;
+}
+
+#showcase .container>.bottom-cloud {
+    bottom: 40%;
+    left: 0;
+}
+
+#showcase .showcse-content {
+    margin: 13.5rem 0;
+}
+
+#showcase .m-1 {
+    display: none;
+}
+
+#showcase .m-2 {
+    display: inline;
+}
+
+/******** SKILLS SECTION ********/
+
+.inner-core {
+    top: 5px;
+}
+
+/**************************** MOBILE RESPONSIVE ****************************/
+
+@media (max-width: 420px) {
+    /******** NAVIGATION BAR ********/
+    #landing .navbar .div-row .logo-div {
+        display: none;
+    }
+    #landing .navbar .div-row {
+        justify-content: center;
+    }
+    #landing .navbar .div-row .link-bar ul {
+        align-items: center;
+    }
+    #landing .navbar .div-row .link-bar ul li {
+        margin: 0 1.6rem;
+    }
+    #landing .navbar .div-row .link-bar ul a {
+        font-size: 1.1rem;
+    }
+    /******** SHOWCASE ********/
+    #showcase .showcse-content {
+        margin: 10.5rem 0;
+    }
+    #showcase .showcse-content h1 {
+        font-size: 4rem;
+    }
+    #showcase .showcse-content p {
+        font-size: 1.1rem;
+    }
+    #showcase .container>.top-cloud, #showcase .container>.bottom-cloud {
+        width: 120px;
+    }
+    #showcase .container>.top-cloud {
+        top: 12%;
+        right: -2.5rem;
+    }
+    #showcase .container>.bottom-cloud {
+        bottom: 40%;
+        left: -3rem;
+    }
+    #showcase .m-2 {
+        display: none;
+    }
+    #showcase .m-3 {
+        display: inline;
+    }
+    /******** ABOUT SECTION ********/
+    #about .about-content {
+        padding: 5rem 0 5.4rem;
+    }
+    #about .about-content img {
+        width: 160px;
+        margin: 1.5rem;
+    }
+    #about .about-content .about-me h1 {
+        font-size: 1.6rem;
+        margin-bottom: .5rem;
+    }
+    #about .about-content .about-me {
+        width: 80%;
+    }
+
+    #work .container .items{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    /******** SKILLS SECTION ********/
+    #skills .skills-section {
+        padding: 5rem 0 3.5rem;
+    }
+    #skills .skills-section .skill {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 4rem;
+    }
+    #skills .skills-section .designing, #skills .skills-section .programming, #skills .skills-section .web-development {
+        grid: unset;
+        text-align: center;
+    }
+    #skills .skills-section .designing, #skills .skills-section .programming {
+        margin-bottom: 2rem;
+    }
+    #skills .skills-section>h1 {
+        font-size: 2.5rem;
+        margin: 2rem 0 3.5rem;
+    }
+    .p-i-1 {
+        display: none;
+    }
+    .p-i-2 {
+        display: inline;
+    }
+    .designer-image, .programmer-image, .web-development-image {
+        width: 160px;
+        margin: auto;
+        margin-bottom: -2rem;
+    }
+    #skills .skills-section h2 {
+        font-size: 1.6rem;
+        margin-bottom: .3rem;
+    }
+    /******** FOOTER SECTION ********/
+    #main-footer .social-link a {
+        display: inline-block;
+        margin: 1rem;
+        font-size: 1.1rem;
+    }
+    #main-footer .copyright p {
+        color: var(--dark-color);
+        margin-top: 2rem;
+        margin-bottom: 1rem;
+        line-height: 2;
+    }
+}
+
+@media (max-height: 825px) {
+    /******** SHOWCASE ********/
+    #showcase .showcse-content {
+        margin: 12.4rem 0;
+    }
+}
+
+@media (max-height: 740px) {
+    /******** SHOWCASE ********/
+    #showcase .showcse-content {
+        margin: 9.6rem 0;
+    }
+}
+
+@media (max-height: 670px) {
+    /******** SHOWCASE ********/
+    #showcase .showcse-content {
+        margin: 8rem 0;
+    }
+}
+
+@media (max-height: 641px) {
+    /******** SHOWCASE ********/
+    #showcase .showcse-content {
+        margin: 7.4rem 0;
+    }
+}
+
+@media (max-height: 570px) {
+    /******** SHOWCASE ********/
+    #showcase .showcse-content {
+        margin: 5.5rem 0;
+    }
+}
+
+/********************************************************/
