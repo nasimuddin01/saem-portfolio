@@ -229,11 +229,15 @@ a {
 	grid-gap: 4rem;
 }
 
-#skills .skills-section .skill img {
+#skills .skills-section .skill .skill-container img {
 	width: 100px;
 	height: 100px;
 }
 
+#skills .skills-section .skill .skill-container h3{
+	margin-top: 2rem;
+	text-align: center;
+}
 /* Project section */
 
 .text-center {
