@@ -8,9 +8,9 @@
 
 /******** NAVIGATION BAR ********/
 
-#landing .navbar .div-row {
+/* #landing .navbar .div-row {
     padding: 1rem 3rem;
-}
+} */
 
 /******** SHOWCASE ********/
 
@@ -49,13 +49,25 @@
 
 /**************************** MOBILE RESPONSIVE ****************************/
 
-@media (max-width: 420px) {
+@media (max-width: 720px) {
     /******** NAVIGATION BAR ********/
-    #landing .navbar .div-row .logo-div {
-        display: none;
+    #landing .navbar {
+        /* display: none; */
+        width: 95%;
+        margin: 0 auto;
     }
     #landing .navbar .div-row {
-        justify-content: center;
+        display: grid;
+        grid-template-columns: 30px auto;
+        grid-gap: 1rem;
+        /* display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center; */
+    }
+    #landing .navbar .div-row .logo-div .logo {
+        width: 20px;
+        height: 15px;
     }
     #landing .navbar .div-row .link-bar ul {
         align-items: center;
@@ -108,15 +120,14 @@
     #about .about-content .about-me {
         width: 80%;
     }
-
-    #work .container .items{
+    #work .container .items {
         display: grid;
         grid-template-columns: 1fr;
     }
     /******** SKILLS SECTION ********/
-    #skills .skills-section {
+    /* #skills .skills-section {
         padding: 5rem 0 3.5rem;
-    }
+    } */
     #skills .skills-section .skill {
         display: grid;
         grid-template-columns: 1fr 1fr;
