@@ -16,11 +16,12 @@ html, body {
 }
 
 h1, h2, h3, h4, h5, h6, a {
-	font-family: 'Josefin Sans', sans-serif;
+	font-family: 'Poppins', sans-serif;
 }
 
 p {
-	font-family: 'Comfortaa', cursive;
+	font-family: 'Nunito', sans-serif;
+	font-size: 18px;
 }
 
 ul {
@@ -33,7 +34,7 @@ a {
 }
 
 .container {
-	max-width: 1000px;
+	max-width: 1200px;
 	margin: auto;
 	padding: 0 1rem;
 }
@@ -219,8 +220,8 @@ a {
 }
 
 #skills .skills-section .skill .skill-container img {
-	width: 100px;
-	height: 100px;
+	width: 150px;
+	height: 150px;
 }
 
 #skills .skills-section .skill .skill-container h3 {
@@ -387,7 +388,7 @@ h2, h3, h4 {
 }
 
 #work .items .item-image {
-	height: 180px !important;
+	height: 220px !important;
 	display: block;
 	transform: translateZ(0);
 	transition: transform 750ms cubic-bezier(0.2, 1, 0.3, 1);
